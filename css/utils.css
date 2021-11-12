@@ -1,0 +1,26 @@
+.color-primary {
+  color: #4fc87a;
+}
+
+.color-secondary {
+  color: #fdc700;
+}
+
+.color-grey {
+  color: #8b8e90;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}

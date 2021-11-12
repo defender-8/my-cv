@@ -1,0 +1,167 @@
+/*Container*/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+  background: #fafbfc;
+}
+
+/*Header*/
+.header {
+  padding-top: 24px;
+  margin-bottom: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.header-left {
+  width: 20%;
+  margin-right: auto;
+}
+
+.header-right {
+  width: 75%;
+  background-color: #d5f8e1;
+  padding: 16px 24px 24px 24px;
+  border-radius: 8px;
+}
+
+/*Avatar*/
+.avatar {
+  border-radius: 50%;
+}
+
+/*Contacts*/
+.contacts {
+  max-width: 700px;
+}
+
+.contacts-left {
+  float: left;
+}
+
+.contacts-right {
+  float: right;
+}
+
+/*Contacts Item*/
+.contacts-item {
+  position: relative;
+  padding-left: 32px;
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.contacts-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.contacts-item-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #fdc700;
+}
+
+.contacts-item-data {
+  font-weight: 700;
+  color: #8b8e90;
+}
+
+/*Section*/
+.section {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.section-left {
+  flex: 0 0 320px;
+  padding-right: 24px;
+}
+
+.section-right {
+  flex: 1;
+  border-left: 4px solid #4fc87a;
+  padding-left: 16px;
+}
+
+.section-title {
+  margin: 0;
+  padding: 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: #4fc87a;
+  color: #fff;
+}
+
+.section-content {
+
+}
+
+/*Subsection*/
+.subsection {
+  margin-bottom: 32px;
+}
+
+.subsection-header {
+  margin-top: 0;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.subsection-header-left {
+
+}
+
+.subsection-header-right {
+
+}
+
+.subsection-header-title {
+  color: #4fc87a;
+  font-size: 24px;
+}
+
+.subsection-header-subtitle {
+  font-size: 18px;
+  color: #8b8e90;
+}
+
+.subsection-header-info {
+  color: #fdc700;
+  font-size: 16px;
+}
+
+/*Icon Item*/
+.icon-item {
+  margin-bottom: 8px;
+}
+
+.icon-item .fas {
+  color: #fdc700;
+}
+
+.icon-item .icon-item-name {
+  padding-left: 4px;
+  font-weight: 500;
+}
+
+/*Progress*/
+.progress {
+  background-color: #d1d5d8;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.progress-inner {
+  background-color: #4fc87a;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 8px;
+}
+
