@@ -2,7 +2,7 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 32px;
+  padding: 0 32px 64px;
   background: #fafbfc;
 }
 
@@ -71,7 +71,10 @@
 /*Section*/
 .section {
   display: flex;
-  margin-bottom: 32px;
+}
+
+.section:not(:last-child) {
+  margin-bottom: 64px;
 }
 
 .section-left {
@@ -94,15 +97,7 @@
   color: #fff;
 }
 
-.section-content {
-
-}
-
-/*Subsection*/
-.subsection {
-  margin-bottom: 32px;
-}
-
+/*Subsection Header*/
 .subsection-header {
   margin-top: 0;
   margin-bottom: 8px;
@@ -164,5 +159,41 @@
   display: flex;
   justify-content: space-between;
   padding: 4px 8px;
+}
+
+/*Accordion*/
+.accordion-item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.accordion-toggle {
+  cursor: pointer;
+  padding-left: 1.25em;
+  position: relative;
+}
+
+.accordion-toggle:before {
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900;
+  content: "\f067";
+  position: absolute;
+  top: 0.125em;
+  left: 0;
+  color: #fdc700;
+}
+
+.accordion-toggle.active:before {
+  transform: rotate(45deg);
+}
+
+.accordion-slide {
+  height: 0;
+  overflow-y: hidden;
+  transition: all .3s ease-in-out;
+}
+
+.accordion-slide.active {
+  height: auto;
+  overflow-y: unset;
 }
 
