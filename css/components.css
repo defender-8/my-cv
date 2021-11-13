@@ -31,19 +31,6 @@
   border-radius: 50%;
 }
 
-/*Contacts*/
-.contacts {
-  max-width: 700px;
-}
-
-.contacts-left {
-  float: left;
-}
-
-.contacts-right {
-  float: right;
-}
-
 /*Contacts Item*/
 .contacts-item {
   position: relative;
@@ -174,6 +161,19 @@
 }
 
 @media screen and (min-width: 992px){
+  /*Contacts*/
+  .contacts {
+    max-width: 700px;
+  }
+
+  .contacts-left {
+    float: left;
+  }
+
+  .contacts-right {
+    float: right;
+  }
+
   /*Section*/
   .section {
     display: flex;
@@ -206,6 +206,16 @@
 
   .header-right {
     width: auto;
+  }
+
+  .header h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  /*Contacts*/
+  .contacts-left {
+    margin-bottom: 8px;
   }
 
   /*Section*/
