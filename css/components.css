@@ -222,5 +222,11 @@
   .section-left {
     margin-bottom: 32px;
   }
+
+  /*Subsection Header*/
+  .subsection-header {
+    flex-flow: column;
+    align-items: flex-start;
+  }
 }
 
