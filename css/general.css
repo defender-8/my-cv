@@ -17,6 +17,11 @@ body {
 a {
   text-decoration: none;
   color: #4fc87a;
+  transition: color .3s ease-in-out;
+}
+
+a:hover {
+  color: #fdc700;
 }
 
 h1 {

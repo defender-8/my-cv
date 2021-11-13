@@ -79,7 +79,6 @@
 }
 
 .subsection-header-title {
-  color: #4fc87a;
   font-size: 24px;
 }
 
@@ -89,7 +88,6 @@
 }
 
 .subsection-header-info {
-  color: #fdc700;
   font-size: 16px;
 }
 
@@ -127,6 +125,15 @@
 /*Accordion*/
 .accordion-item:not(:last-child) {
   margin-bottom: 32px;
+}
+
+.accordion-toggle {
+  color: #4fc87a;
+  transition: color .3s ease-in-out;
+}
+
+.accordion-toggle:hover, .accordion-toggle.active {
+  color: #fdc700;
 }
 
 .accordion-toggle {
