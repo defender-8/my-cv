@@ -24,6 +24,16 @@
   background-color: #d5f8e1;
   padding: 16px 24px 24px 24px;
   border-radius: 8px;
+  position: relative;
+}
+
+.header-fb-link {
+  position: absolute;
+  right: 16px;
+}
+
+.header-right .fa-facebook {
+  font-size: 24px;
 }
 
 /*Avatar*/
@@ -202,6 +212,13 @@
   /*Header*/
   header {
     flex-flow: column;
+  }
+
+  .header-fb-link {
+    background-color: #fff;
+    border-radius: 50%;
+    top: -8px;
+    right: -8px;
   }
 
   .header-left {
