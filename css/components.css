@@ -65,6 +65,19 @@
   color: #8b8e90;
 }
 
+/*Messenger Links*/
+.messenger-links {
+  margin-top: 12px;
+}
+
+.messenger-links-item {
+  font-size: 24px;
+}
+
+.messenger-links-item:not(:last-child) {
+  margin-right: 4px;
+}
+
 /*Section*/
 .section:not(:last-child) {
   margin-bottom: 64px;
