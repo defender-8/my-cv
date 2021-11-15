@@ -234,9 +234,15 @@
 
   .header-fb-link {
     background-color: #fff;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
     top: -8px;
     right: -8px;
+  }
+
+  .header-fb-link .fa-facebook {
+    font-size: 32px;
   }
 
   .header-left {
