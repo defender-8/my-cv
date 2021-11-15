@@ -142,7 +142,7 @@
   transition: color .3s ease-in-out;
 }
 
-.accordion-toggle:hover, .accordion-toggle.active {
+.accordion-toggle.active {
   color: #fdc700;
 }
 
@@ -205,6 +205,11 @@
     flex: 1;
     border-left: 4px solid #4fc87a;
     padding-left: 16px;
+  }
+
+  /*Accordion*/
+  .accordion-toggle:hover {
+    color: #fdc700;
   }
 }
 
