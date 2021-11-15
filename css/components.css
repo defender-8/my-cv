@@ -260,6 +260,11 @@
     margin-bottom: 8px;
   }
 
+  /*Messenger Links*/
+  .messenger-links-item {
+    font-size: 32px;
+  }
+
   /*Section*/
   .section-left {
     margin-bottom: 32px;
