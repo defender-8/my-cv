@@ -1,428 +1,590 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Олександр Кондратенко</title>
-  <script src="https://kit.fontawesome.com/3a7e79880d.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/general.css">
-  <link rel="stylesheet" href="css/utils.css">
-  <link rel="stylesheet" href="css/components.css">
-</head>
-<body>
-<div class="container">
-  <header class="header">
-    <div class="header-left">
-      <img src="images/avatar.jpg" class="avatar-img img-responsive">
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Résumé</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/3a7e79880d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header-left">
+          <img
+            src="assets/images/avatar.jpg"
+            class="avatar-img img-responsive"
+            alt="Avatar"
+          />
+        </div>
+        <div class="header-right">
+          <a
+            href="https://www.facebook.com/oleksandr.kondratenko.8/"
+            rel="author"
+            target="_blank"
+            class="header fb-link"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
+          <h1>Олександр Кондратенко</h1>
+          <section class="contacts clearfix">
+            <div class="contacts-left">
+              <div class="contacts-item">
+                <div class="contacts-item-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contacts-item-data">
+                  <a href="mailto:kondratenko.ov.8@gmail.com" rel="author"
+                    >kondratenko.ov.8@gmail.com</a
+                  >
+                </div>
+              </div>
+              <div class="contacts-item">
+                <div class="contacts-item-icon">
+                  <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="contacts-item-data">
+                  <a href="tel:+380984387564" rel="author"
+                    >+38(098)-438-75-64</a
+                  >
+                </div>
+              </div>
+              <div class="messenger-links">
+                <a
+                  href="skype:live:9b0b604c41276eb1?chat"
+                  rel="author"
+                  class="messenger-links-item"
+                >
+                  <i class="fab fa-skype"></i>
+                </a>
+                <a
+                  href="viber://chat/?number=%2B380984387564"
+                  rel="author"
+                  class="messenger-links-item"
+                >
+                  <i class="fab fa-viber"></i>
+                </a>
+                <a
+                  href="https://m.me/oleksandr.kondratenko.8"
+                  rel="author"
+                  class="messenger-links-item"
+                >
+                  <i class="fab fa-facebook-messenger"></i>
+                </a>
+                <a
+                  href="https://t.me/kondratenko_ov_8"
+                  rel="author"
+                  class="messenger-links-item"
+                >
+                  <i class="fab fa-telegram"></i>
+                </a>
+              </div>
+            </div>
+            <div class="contacts-right">
+              <div class="contacts-item">
+                <div class="contacts-item-icon">
+                  <i class="fas fa-home"></i>
+                </div>
+                <div class="contacts-item-data fw-500">
+                  Україна,<br />
+                  м. Чернігів,<br />
+                  вул. генерала Пухова, 152
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </header>
+      <main>
+        <section class="section">
+          <div class="section-left">
+            <h2 class="section-title">Intro</h2>
+          </div>
+          <div class="section-right">
+            Вітаю! Я є Олександр &#8211; музикальний фашистік, книжковий маніяк,
+            колишній футболіст (а, може, ще й майбутній). I, ледь не забув,
+            front-end developer... але і з бек-ендом вже доводилось працювати
+            (деталі нижче). Робота для мене справді важлива, просто не хотілося,
+            щоб резюме було дуже нудним &#128578;
+          </div>
+        </section>
+        <section class="section">
+          <div class="section-left">
+            <h2 class="section-title">Навички</h2>
+            <div class="section-additional-info">English - Intermediate</div>
+          </div>
+          <div class="section-right">
+            <div class="section-content">
+              <div class="skill">
+                <div class="skill-title">HTML</div>
+                <div class="progress-outer">
+                  <div class="progress-bg">
+                    <div class="progress-filled" style="width: 75%"></div>
+                  </div>
+                  <div class="progress-value">75%</div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill-title">CSS, SCSS, less</div>
+                <div class="progress-outer">
+                  <div class="progress-bg">
+                    <div class="progress-filled" style="width: 75%"></div>
+                  </div>
+                  <div class="progress-value">75%</div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill-title">JavaScript</div>
+                <div class="progress-outer">
+                  <div class="progress-bg">
+                    <div class="progress-filled" style="width: 50%"></div>
+                  </div>
+                  <div class="progress-value">50%</div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill-title">React</div>
+                <div class="progress-outer">
+                  <div class="progress-bg">
+                    <div class="progress-filled" style="width: 50%"></div>
+                  </div>
+                  <div class="progress-value">50%</div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill-title">NodeJS</div>
+                <div class="progress-outer">
+                  <div class="progress-bg">
+                    <div class="progress-filled" style="width: 25%"></div>
+                  </div>
+                  <div class="progress-value">25%</div>
+                </div>
+              </div>
+              <div class="skill">
+                <div class="skill-title">MongoDB</div>
+                <div class="progress-outer">
+                  <div class="progress-bg">
+                    <div class="progress-filled" style="width: 25%"></div>
+                  </div>
+                  <div class="progress-value">25%</div>
+                </div>
+              </div>
+              <div class="accordion" id="accordion-skills">
+                <div class="accordion-item">
+                  <div
+                    class="accordion-item-toggle"
+                    data-slide="accordion-skills-1"
+                  >
+                    <div class="text-link fw-500">Докладніше</div>
+                  </div>
+                  <div class="accordion-item-slide" id="accordion-skills-1">
+                    <p>
+                      Вищенаведені цифри досить умовні. Я постійно кудись
+                      поспішав, і моя робота з веб-технологіями не завжди була
+                      добре організована. Тому мені трошки складнувато оцінити
+                      власні поточні знання. Але ж, правда, резюме з прогресами
+                      виглядає симпатичніше?
+                    </p>
+                    <p>
+                      Найбільше я працював з версткою, тому і вважаю, що HTML,
+                      CSS (SCSS, less) знаю найкраще. Хоча, якщо чесно, останні
+                      років зо два не дуже активно слідкував за нововведеннями.
+                    </p>
+                    <p>
+                      Програмування довгенько побоювався. Використовував jQuery,
+                      Bootstrap, WordPress та й, з рештою, просто гугл. Проте
+                      згодом такий підхід здався мені малоперспективним. Я
+                      пробігся по базі JS і почав працювати, вже активно
+                      використовуючи його в проектах (нижче &#8211; Transparen).
+                      Правда, працював переважно з React, тому не дуже добре
+                      орієнтуюсь у ванільному JS в плані роботи з DOM.
+                      Познайомився також із NodeJS, MongoDB (Mongoose), Knex,
+                      Objection. Загалом, на попередній роботі багато чого спробував, але зрозумів,
+                      що перспективи розвитку досить сумнівні.
+                    </p>
+                    <p>
+                      Після невеличкого відпочинку зараз я прокачую скіли &#8211; хочу закріпити те, що вже вмію, і закрити
+                      існуючі пробіли. Покладаюсь не лише на самостійне
+                      навчання. Впевнений, що програми на зразок вашої значно
+                      підвищать ефективність цього процесу. На виході маю на меті
+                      отримати знання, навички й досвід, що допоможуть мені
+                      стати частиною сучасної компанії зі сприятливими умовами
+                      для всебічного розвитку.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="section-left">
+            <h2 class="section-title">Досвід роботи</h2>
+          </div>
+          <div class="section-right">
+            <div class="accordion accordion-timeline" id="accordion-jobs">
+              <div class="accordion-item">
+                <div
+                  class="accordion-item-toggle"
+                  data-slide="accordion-jobs-1"
+                >
+                  <div class="timeline-header">
+                    <div class="timeline-header-left">
+                      <div class="timeline-title">Transparen</div>
+                      <div class="timeline-subtitle">Front-end Developer</div>
+                    </div>
+                    <div class="timeline-header-right">
+                      <span class="timeline-period">Вер 2019 - Сер 2021</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item-slide" id="accordion-jobs-1">
+                  <ul class="ul-text">
+                    <li>
+                      <p>
+                        Участь в розробці веб-додатків з використанням React і
+                        NodeJS.
+                      </p>
+                      Приклад додатку:<br />
+                      <ul class="ul-text">
+                        <li>
+                          <a href="https://app.lyfetracapp.com/" target="_blank"
+                            >https://app.lyfetracapp.com/</a
+                          ><br />
+                        </li>
+                      </ul>
+                      <p>
+                        Над цим і кількома іншими додатками я працював в
+                        команді, переважно з фронт-ендом: налаштовував базову
+                        конфігурацію, підключав і налаштовував компоненти,
+                        створював власні, розробляв частину функціоналу. Також
+                        кілька місяців самостійно (не в команді) працював над
+                        проектом інтернет-магазину (React+NodeJS+MongoDB). Він
+                        не був закінчений, і зараз я використовую його як
+                        тренувальний &#8211; для покращення скілів як по
+                        фронт-енду, так і по бек-енду. Посилання на репозиторії:
+                      </p>
+                      <ul class="ul-text">
+                        <li>
+                          <a
+                            href="https://github.com/defender-8/maskwabbit-admin-mongo"
+                            target="_blank"
+                            >Адмін-панель</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="https://github.com/defender-8/maskwabbit-backend-mongo"
+                            target="_blank"
+                            >Сервер</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="https://github.com/defender-8/maskwabbit-mongo"
+                            target="_blank"
+                            >Магазин</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <p>Розробка сайтів (HTML+CSS+JS, без сервера)</p>
+                      Приклади проектів:
+                      <ul class="ul-text">
+                        <li>
+                          <a href="https://maskwabbit.com/" target="_blank"
+                            >https://maskwabbit.com/</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://lyfetracapp.com/" target="_blank"
+                            >https://lyfetracapp.com/</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            href="https://area51.redleafapp.com/"
+                            target="_blank"
+                            >https://area51.redleafapp.com/</a
+                          >
+                          (Username: redleaf, Password: topsecret)
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div
+                  class="accordion-item-toggle"
+                  data-slide="accordion-jobs-2"
+                >
+                  <div class="timeline-header">
+                    <div class="timeline-header-left">
+                      <div class="timeline-title">Фріланс</div>
+                      <div class="timeline-subtitle">Web Developer</div>
+                    </div>
+                    <div class="timeline-header-right">
+                      <span class="timeline-period">Лис 2018 - Сер 2019</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item-slide" id="accordion-jobs-2">
+                  <ul class="ul-text">
+                    <li>
+                      <p>Розробка сайтів на CMS Wordpress</p>
+                      Приклади існуючих проектів:
+                      <ul class="ul-text">
+                        <li>
+                          <a
+                            href="https://marina-kondratenko.com/"
+                            target="_blank"
+                            >https://marina-kondratenko.com/</a
+                          >
+                        </li>
+                        <li>
+                          Корпоративна бібліотека, доступ до якої мають лише
+                          співробітники компанії. Вона справді існує &#128578;
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div
+                  class="accordion-item-toggle"
+                  data-slide="accordion-jobs-3"
+                >
+                  <div class="timeline-header">
+                    <div class="timeline-header-left">
+                      <div class="timeline-title">Webico</div>
+                      <div class="timeline-subtitle">Webmaster</div>
+                    </div>
+                    <div class="timeline-header-right">
+                      <span class="timeline-period">Лип 2017 - Лис 2018</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item-slide" id="accordion-jobs-3">
+                  <ul class="ul-text">
+                    <li>
+                      <p>
+                        Cтворення сайтів на Wordpress з використанням готових
+                        шаблонів
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div
+                  class="accordion-item-toggle"
+                  data-slide="accordion-jobs-4"
+                >
+                  <div class="timeline-header">
+                    <div class="timeline-header-left">
+                      <div class="timeline-title">Webico</div>
+                      <div class="timeline-subtitle">
+                        SEO-optimizer, Content manager
+                      </div>
+                    </div>
+                    <div class="timeline-header-right">
+                      <span class="timeline-period">Чер 2016 - Лип 2017</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item-slide" id="accordion-jobs-4">
+                  <ul class="ul-text">
+                    <li>
+                      <span>Внутрішня SEO-оптимізація сайтів</span>
+                    </li>
+                    <li>
+                      <span>Розміщення контенту на сайтах</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div
+                  class="accordion-item-toggle"
+                  data-slide="accordion-jobs-5"
+                >
+                  <div class="timeline-header">
+                    <div class="timeline-header-left">
+                      <div class="timeline-title">BSWS</div>
+                      <div class="timeline-subtitle">
+                        Copywriter, SEO-optimizer
+                      </div>
+                    </div>
+                    <div class="timeline-header-right">
+                      <span class="timeline-period">Вер 2012 - Лют 2016</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item-slide" id="accordion-jobs-5">
+                  <ul class="ul-text">
+                    <li>
+                      <span>Написання статей для сайтів</span>
+                    </li>
+                    <li>
+                      <span>Внутрішня SEO-оптимізація сайтів</span>
+                    </li>
+                    <li>
+                      <span>Розміщення контенту на сайтах</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="section-left">
+            <h2 class="section-title">Освіта</h2>
+          </div>
+          <div class="section-right">
+            <div class="accordion accordion-timeline" id="accordion-education">
+              <div class="accordion-item">
+                <div
+                  class="accordion-item-toggle"
+                  data-slide="accordion-education-1"
+                >
+                  <div class="timeline-header">
+                    <div class="timeline-header-left">
+                      <div class="timeline-title">ЧДТУ</div>
+                      <div class="timeline-subtitle">Інженер-дослідник</div>
+                    </div>
+                    <div class="timeline-header-right">
+                      <span class="timeline-period">Вер 2004 - Вер 2010</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item-slide" id="accordion-education-1">
+                  <p>
+                    Чернігівський Державний Технологічний Університет,
+                    Механіко-технологічний факультет, Зварювальне виробництво.
+                  </p>
+                  <p>Ступінь магістра, червоний диплом.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div
+                  class="accordion-item-toggle"
+                  data-slide="accordion-education-2"
+                >
+                  <div class="timeline-header">
+                    <div class="timeline-header-left">
+                      <div class="timeline-title">Дібрівненська ЗОШ</div>
+                    </div>
+                    <div class="timeline-header-right">
+                      <span class="timeline-period">Вер 2004 - Вер 2010</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item-slide" id="accordion-education-2">
+                  <p>
+                    Золота медаль.<br />
+                    Участь в районних олімпіадах з математики.<br />
+                    Улюблений предмет &#8211; фізкультура &#128578;
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="section-left">
+            <h2 class="section-title">Інтереси</h2>
+          </div>
+          <div class="section-right">
+            <div class="interests">
+              <div class="interests-item">
+                <div class="interests-item-title-outer">
+                  <span class="interests-item-title">Музика</span>
+                </div>
+                <div class="interests-item-cover">
+                  <div class="interests-item-icon">
+                    <i class="fas fa-music fa-2x"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="interests-item">
+                <div class="interests-item-title-outer">
+                  <span class="interests-item-title">Книжки</span>
+                </div>
+                <div class="interests-item-cover">
+                  <div class="interests-item-icon">
+                    <i class="fas fa-book fa-2x"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="interests-item">
+                <div class="interests-item-title-outer">
+                  <span class="interests-item-title">Психологія</span>
+                </div>
+                <div class="interests-item-cover">
+                  <div class="interests-item-icon">
+                    <i class="fas fa-male fa-2x"></i
+                    ><i class="fas fa-female fa-2x"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="interests-item">
+                <div class="interests-item-title-outer">
+                  <span class="interests-item-title">Спорт</span>
+                </div>
+                <div class="interests-item-cover">
+                  <div class="interests-item-icon">
+                    <i class="fas fa-running fa-2x"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="section-left">
+            <h2 class="section-title">Outro</h2>
+          </div>
+          <div class="section-right">
+            <p>
+              Наостанок додам дрібку важливої, як на мене, інформації. Зараз я працюю над
+              собою з різних сторін: hard-skills, soft-skills (в свій час
+              зрозумів, що це дууууже важливо), фізична форма. Маю мотивацію як
+              ніколи, настільки серйозну, що навіть почав працювати з
+              психотерапевтом... вдруге. Раптом цей факт вас насторожив, поспішу
+              заспокоїти. В мене немає ніяких розладів. Психотерапію розглядаю
+              як важливу складову не тільки особистісного, а й професійного
+              розвитку &#128170;
+            </p>
+            <p>
+              Мені подобається працювати в IT. Подобається верстка, подобається
+              програмування, подобається фронт-енд, подобається бек-енд. Так,
+              іноді буває непросто, але, якщо мені цікаво, я наполегливий.
+              Правда, тут є і зворотня сторона &#8211; нерідко я до біса багато
+              працюю і забуваю про відпочинок. Думаю, ми довгенько пилятимемо це
+              з моїм психотерапевтом, але вірю, що сякий-такий баланс
+              віднайдемо &#9878;
+            </p>
+            <p>
+              Так... що ще... Я інтроверт. Хоча, цілком можливо, що вважаю себе
+              таким за інерцією. Якщо стрибнути років на 5-7 в минуле &#8211; до
+              тих часів я був інтровертом у 8-ій степені. Добре, що в свій час зацікавився
+              психологією &#128591;
+            </p>
+            <p>
+              А ще ядосить вправний у змістовній писанині, і, поки не дуже
+              захопився, краще буду завершувати. Дякую за увагу. Тримаймося &#128578;
+            </p>
+          </div>
+        </section>
+      </main>
     </div>
-    <div class="header-right">
-      <a class="header-fb-link"
-         href="https://www.facebook.com/oleksandr.kondratenko.8/"
-         target="_blank">
-        <i class="fab fa-facebook"></i>
-      </a>
-      <h1>Олександр Кондратенко</h1>
-      <section class="contacts clearfix">
-        <div class="contacts-left">
-          <div class="contacts-item">
-            <div class="contacts-item-icon">
-              <i class="fas fa-envelope"></i>
-            </div>
-            <div class="contacts-item-data">
-              <a href="mailto:kondratenko.ov.8@gmail.com">kondratenko.ov.8@gmail.com</a>
-            </div>
-          </div>
-          <div class="contacts-item">
-            <div class="contacts-item-icon">
-              <i class="fas fa-phone-alt"></i>
-            </div>
-            <div class="contacts-item-data">
-              <a href="tel:+380984387564">+38(098)-438-75-64</a>
-            </div>
-          </div>
-          <div class="messenger-links">
-            <a href="skype:live:9b0b604c41276eb1?chat" class="messenger-links-item">
-              <i class="fab fa-skype"></i>
-            </a>
-            <a href="viber://chat/?number=%2B380984387564" class="messenger-links-item">
-              <i class="fab fa-viber"></i>
-            </a>
-            <a href="https://m.me/oleksandr.kondratenko.8" class="messenger-links-item">
-              <i class="fab fa-facebook-messenger"></i>
-            </a>
-            <a href="https://t.me/kondratenko_ov_8" class="messenger-links-item">
-              <i class="fab fa-telegram"></i>
-            </a>
-          </div>
-        </div>
-        <div class="contacts-right">
-          <div class="contacts-item">
-            <div class="contacts-item-icon">
-              <i class="fas fa-home"></i>
-            </div>
-            <div class="contacts-item-data">
-              Україна,<br>
-              м. Чернігів,<br>
-              вул. генерала Пухова, 152
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  </header>
-  <main>
-    <section class="section">
-      <div class="section-left">
-        <h2 class="section-title">Навички</h2>
-      </div>
-      <div class="section-right">
-        <div class="section-content">
-          <div class="progress">
-            <div class="progress-inner" style="width: 75%">
-              <div class="progress-name">
-                HTML
-              </div>
-              <div class="progress-value">
-                75%
-              </div>
-            </div>
-          </div>
-          <div class="progress">
-            <div class="progress-inner" style="width: 75%">
-              <div class="progress-name">
-                CSS, SCSS, less
-              </div>
-              <div class="progress-value">
-                75%
-              </div>
-            </div>
-          </div>
-          <div class="progress">
-            <div class="progress-inner" style="width: 50%">
-              <div class="progress-name">
-                JavaScript
-              </div>
-              <div class="progress-value">
-                50%
-              </div>
-            </div>
-          </div>
-          <div class="progress">
-            <div class="progress-inner" style="width: 50%">
-              <div class="progress-name">
-                React
-              </div>
-              <div class="progress-value">
-                50%
-              </div>
-            </div>
-          </div>
-          <div class="progress">
-            <div class="progress-inner" style="width: 25%">
-              <div class="progress-name">
-                NodeJS
-              </div>
-              <div class="progress-value">
-                25%
-              </div>
-            </div>
-          </div>
-          <div class="progress">
-            <div class="progress-inner" style="width: 25%">
-              <div class="progress-name">
-                MongoDB
-              </div>
-              <div class="progress-value">
-                25%
-              </div>
-            </div>
-          </div>
-          <div class="accordion" id="accordion-skills">
-            <div class="accordion-item">
-              <div class="accordion-toggle" data-slide="accordion-skills-1">
-                <div class="text-link fw-500">Докладніше</div>
-              </div>
-              <div class="accordion-slide" id="accordion-skills-1">
-                <p>Вищенаведені цифри досить умовні. Вже приблизно 5 років я так чи інакше працюю з
-                  веб-технологіями, але з часом я усвідомив, що моя робота була не дуже добре
-                  організована. Набуття тих чи інших знань диктувалось поточними задачами, як на
-                  власних проектах, так і на робочих, а задачі були доволі різноманітними і
-                  непостійними. Неодноразово бувало так, що я щось вивчав, розбирався, робив і
-                  забував за відсутності постійної практики в цьому напрямку. Або ж не дуже
-                  заглиблювався в суть за браком часу, використовуючи готові чи напівготові рішення.
-                  Таким чином мені складно оцінити мої поточні знання.</p>
-                <p>Найбільше я працював з версткою, тому і вважаю, що HTML, CSS (SCSS, less) знаю
-                  найкраще. Хоча, якщо чесно, останні років зо два не моніторив нововведення.</p>
-                <p>Програмування довгенько побоювався. Пару разів пробігався по базовій теорії
-                  JavaScript без належної практики, починав проходити CS50. Але за наявності jQuery,
-                  Bootstrap, WordPress та й просто гугла створював сайти без особливої мотивації
-                  занурюватись в JS. Проте згодом такий підхід здався мені безперспективним. Я
-                  вкотре пробігся по базі JS і почав працювати, вже активно використовуючи його в
-                  проектах (нижче &#8211; Transparen), але, знову ж таки, відштовхуючись від задач
-                  та ще й при постійному браку часу для належного усвідомлення теоретичних аспектів
-                  та професійного росту. Проекти були на React, тому я майже не маю практичного
-                  досвіду використання ванільного JS для маніпуляції DOM, створення анімацій тощо.
-                  Хоча основи в свій час розбирав і за необхідності зможу застосовувати, як в цьому
-                  резюме.</p>
-                <p>На останньому місці роботи познайомився також із NodeJS, MongoDB (Mongoose) ,
-                  Knex, Objection. Загалом, я багато чого там спробував, але організаційні умови
-                  були не мої.</p>
-                <p>Зараз я намагаюсь нікуди не поспішати, підійти до прокачування скілів більш
-                  виважено і організовано. Тому покладаюсь не лише на самостійне навчання.
-                  Впевнений, що програми на зразок вашої значно підвищать ефективність цього
-                  процесу.</p>
-                <p>На виході я хочу отримати знання, навички й досвід, що допоможуть мені стати
-                  частиною сучасної компанії зі сприятливими умовами для всебічного розвитку.</p>
-                <p>Звісно ж, я усвідомлюю і власну відповідальність. Працюю над собою з різних
-                  сторін: hard-skills, soft-skills, фізична форма. Але й про відпочинок не забуваю.
-                  Хоча… іноді таки забуваю, але і в цьому напрямку просуваюсь. Бо налаштований грати
-                  в довгу, і головне &#8211; маю мотивацію як ніколи, настільки серйозну, що навіть
-                  почав працювати з психотерапевтом. Раптом цей факт вас насторожив, поспішу
-                  заспокоїти. В мене немає ніяких розладів. Психотерапію розглядаю як важливу
-                  складову не тільки особистісного, а й професійного розвитку.</p>
-                <p>Мені подобається працювати в IT. Подобається верстка, подобається програмування,
-                  подобається фронт-енд, подобається бек-енд. Так, іноді буває непросто, але, якщо
-                  мені цікаво, я наполегливий. Як то кажуть, бачу ціль &#8211; не бачу перешкод.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="section-left">
-        <h2 class="section-title">Досвід роботи</h2>
-      </div>
-      <div class="section-right">
-        <div class="accordion" id="accordion-jobs">
-          <div class="accordion-item">
-            <h3 class="subsection-header accordion-toggle" data-slide="accordion-jobs-1">
-              <div class="subsection-header-left">
-                <div class="subsection-header-title">Transparen</div>
-                <div class="subsection-header-subtitle">Front-end Developer</div>
-              </div>
-              <div class="subsection-header-right">
-                <span class="subsection-header-info">Вер 2019 - Сер 2021</span>
-              </div>
-            </h3>
-            <div class="subsection-content accordion-slide" id="accordion-jobs-1">
-              <ul class="ul-text">
-                <li>
-                  <p class="fw-500">Участь в розробці веб-додатків з використанням React і
-                    NodeJS.</p>
-                  Приклад додатку:<br>
-                  <ul class="ul-text">
-                    <li>
-                      <a href="https://app.lyfetracapp.com/" target="_blank">https://app.lyfetracapp.com/</a><br>
-                    </li>
-                  </ul>
-                  <p>Над цим і кількома іншими додатками я працював в команді, переважно з
-                    фронт-ендом:
-                    налаштовував базову конфігурацію, підключав і налаштовував компоненти, створював
-                    власні, розробляв частину функціоналу.
-                    Також кілька місяців самостійно (не в команді) працював над проектом
-                    інтернет-магазину (React+NodeJS+MongoDB). Він не був закінчений, і зараз я
-                    використовую його як
-                    тренувальний &#8211; для покращення скілів як по фронт-енду, так і по бек-енду.
-                    Посилання на репозиторії:</p>
-                  <ul class="ul-text">
-                    <li>
-                      <a href="https://github.com/defender-8/maskwabbit-admin-mongo"
-                         target="_blank">Адмін-панель</a>
-                    </li>
-                    <li>
-                      <a href="https://github.com/defender-8/maskwabbit-backend-mongo"
-                         target="_blank">Сервер</a>
-                    </li>
-                    <li>
-                      <a href="https://github.com/defender-8/maskwabbit-mongo"
-                         target="_blank">Магазин</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <p class="fw-500">Розробка сайтів (HTML+CSS+JS, без сервера)</p>
-                  Приклади проектів:
-                  <ul class="ul-text">
-                    <li>
-                      <a href="https://maskwabbit.com/"
-                         target="_blank">https://maskwabbit.com/</a>
-                    </li>
-                    <li>
-                      <a href="https://lyfetracapp.com/"
-                         target="_blank">https://lyfetracapp.com/</a>
-                    </li>
-                    <li>
-                      <a href="https://area51.redleafapp.com/"
-                         target="_blank">https://area51.redleafapp.com/</a> (Username: redleaf,
-                      Password: topsecret)
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h3 class="subsection-header accordion-toggle" data-slide="accordion-jobs-2">
-              <div class="subsection-header-left">
-                <div class="subsection-header-title">Фріланс</div>
-                <div class="subsection-header-subtitle">Web Developer</div>
-              </div>
-              <div class="subsection-header-right">
-                <span class="subsection-header-info">Лис 2018 - Сер 2019</span>
-              </div>
-            </h3>
-            <div class="subsection-content accordion-slide" id="accordion-jobs-2">
-              <ul class="ul-text">
-                <li>
-                  <p class="fw-500">Розробка сайтів на CMS Wordpress</p>
-                  Приклади існуючих проектів:
-                  <ul class="ul-text">
-                    <li>
-                      <a href="https://marina-kondratenko.com/"
-                         target="_blank">https://marina-kondratenko.com/</a>
-                    </li>
-                    <li>
-                      Корпоративна бібліотека, доступ до якої мають лише співробітники компанії.
-                      Вона справді існує:)
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h3 class="subsection-header accordion-toggle" data-slide="accordion-jobs-3">
-              <div class="subsection-header-left">
-                <div class="subsection-header-title">Webico</div>
-                <div class="subsection-header-subtitle">Webmaster</div>
-              </div>
-              <div class="subsection-header-right">
-                <span class="subsection-header-info">Лип 2017 - Лис 2018</span>
-              </div>
-            </h3>
-            <div class="subsection-content accordion-slide" id="accordion-jobs-3">
-              <ul class="ul-text">
-                <li>
-                  <p class="fw-500">Cтворення сайтів на Wordpress з використанням готових
-                    шаблонів</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h3 class="subsection-header accordion-toggle" data-slide="accordion-jobs-4">
-              <div class="subsection-header-left">
-                <div class="subsection-header-title">Webico</div>
-                <div class="subsection-header-subtitle">SEO-optimizer, Content manager</div>
-              </div>
-              <div class="subsection-header-right">
-                <span class="subsection-header-info">Чер 2016 - Лип 2017</span>
-              </div>
-            </h3>
-            <div class="subsection-content accordion-slide" id="accordion-jobs-4">
-              <ul class="ul-text">
-                <li>
-                  <span class="fw-500">Внутрішня SEO-оптимізація сайтів</span>
-                </li>
-                <li>
-                  <span class="fw-500">Розміщення контенту на сайтах</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h3 class="subsection-header accordion-toggle" data-slide="accordion-jobs-5">
-              <div class="subsection-header-left">
-                <div class="subsection-header-title">BSWS</div>
-                <div class="subsection-header-subtitle">Copywriter, SEO-optimizer</div>
-              </div>
-              <div class="subsection-header-right">
-                <span class="subsection-header-info">Вер 2012 - Лют 2016</span>
-              </div>
-            </h3>
-            <div class="subsection-content accordion-slide" id="accordion-jobs-5">
-              <ul class="ul-text">
-                <li>
-                  <span class="fw-500">Написання статей для сайтів</span>
-                </li>
-                <li>
-                  <span class="fw-500">Внутрішня SEO-оптимізація сайтів</span>
-                </li>
-                <li>
-                  <span class="fw-500">Розміщення контенту на сайтах</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="section-left">
-        <h2 class="section-title">Освіта</h2>
-      </div>
-      <div class="section-right">
-        <div class="accordion" id="accordion-education">
-          <div class="accordion-item">
-            <h3 class="subsection-header accordion-toggle" data-slide="accordion-education-1">
-              <div class="subsection-header-left">
-                <div class="subsection-header-title">ЧДТУ</div>
-                <div class="subsection-header-subtitle">Інженер-дослідник</div>
-              </div>
-              <div class="subsection-header-right">
-                <span class="subsection-header-info">Вер 2004 - Вер 2010</span>
-              </div>
-            </h3>
-            <div class="subsection-content accordion-slide" id="accordion-education-1">
-              <p>Чернігівський Державний Технологічний Університет, Механіко-технологічний
-                факультет, Зварювальне виробництво.</p>
-              <p>Ступінь магістра, червоний диплом.</p>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h3 class="subsection-header accordion-toggle" data-slide="accordion-education-2">
-              <div class="subsection-header-left">
-                <div class="subsection-header-title">Дібрівненська ЗОШ</div>
-              </div>
-              <div class="subsection-header-right">
-                <span class="subsection-header-info">Вер 1994 - Чер 2010</span>
-              </div>
-            </h3>
-            <div class="subsection-content accordion-slide" id="accordion-education-2">
-              <p>Золота медаль.<br>
-                Участь в районних олімпіадах з математики.<br>
-                Улюблений предмет &#8211; фізкультура :)</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="section-left">
-        <h2 class="section-title">Інтереси</h2>
-      </div>
-      <div class="section-right">
-        <div class="icon-item">
-          <i class="fas fa-music"></i>
-          <span class="icon-item-name">Музика</span>
-        </div>
-        <div class="icon-item">
-          <i class="fas fa-book"></i>
-          <span class="icon-item-name">Книжки</span>
-        </div>
-        <div class="icon-item">
-          <i class="fas fa-male"></i><i class="fas fa-female"></i>
-          <span class="icon-item-name">Психологія</span>
-        </div>
-        <div class="icon-item">
-          <i class="fas fa-running"></i>
-          <span class="icon-item-name">Спорт</span>
-        </div>
-      </div>
-    </section>
-  </main>
-</div>
-<script src="js/index.js"></script>
-</body>
+    <script src="index.js"></script>
+  </body>
 </html>
